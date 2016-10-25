@@ -23,6 +23,10 @@ About
 •pull request
 每次提交代码请先 git pull
 
+###小米论坛首页
+######新建目录：目录名最好带有xiaomi字样，或者写个readme。方便查找。
+######仿写小米论坛首页：http://www.xiaomi.cn/index.html
+######周三例会前git push
 
 
 
