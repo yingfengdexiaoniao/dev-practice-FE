@@ -29,13 +29,23 @@ About
 
 * pull request 每次提交代码请先 git pull
 
-小米论坛首页
+###百度首页
 
-新建目录：目录名最好带有xiaomi字样，或者写个readme。方便查找。
+* 新建目录：目录名最好带有xiaomi字样，或者写个readme。方便查找。
 
-仿写小米论坛首页：[小米](http://www.xiaomi.cn/index.html)
+* 仿写百度首页：[baidu](www.baidu.com)
 
-周三例会前git push
+* 新增，培训后修改百度首页
+
+* 提交前请先git pull
+
+###小米论坛首页
+
+* 新建目录：目录名最好带有xiaomi字样，或者写个readme。方便查找。
+
+* 仿写小米论坛首页：[xiaomi](http://www.xiaomi.cn/index.html)
+
+* 周三例会前git push
 
 
 
