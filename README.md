@@ -29,7 +29,9 @@ About
 
 -----others
 
-* pull request 每次提交代码请先 git pull
+* pull request 
+* pull request 如何更新代码或者提交代码，请看此教程：[如何在github上fork一个项目来贡献代码以及同步原作者的修改](http://www.360doc.com/content/13/0410/18/2569758_277424931.shtml)
+* 每次提交代码请先 git pull
 
 ###百度首页
 
