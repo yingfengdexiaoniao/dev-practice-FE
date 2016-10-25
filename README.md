@@ -14,13 +14,14 @@ About
 •在自己的目录里操作自己的代码和练习，每个练习再算一个目录
 
 
-•--dev-practice-FE
-•-----yours
-•--------first你的第一个练习
---------second你的第二个练习
------others
+#####-dev-practice-FE
+#####-----yours
+#####--------first你的第一个练习
+#####--------second你的第二个练习
+#####-----others
 
 •pull request
+每次提交代码请先 git pull
 
 
 
