@@ -48,12 +48,10 @@
 				<input type="search" class="hd_search" placeholder="搜索"> 
 				<button class="hd_submit">
 					<i class="fa fa-search" aria-hidden="true"></i>
+					
 				</button>
 				</form>
-				<div class="help">
-				<p>请<a href="#">登录</a>后使用快捷导航</br>
-				没有账号？<a href="#"><b>注册</b></a></p>
-				</div>
+				
 			</div>
 		</div>
 		<div id="menu">
@@ -69,18 +67,28 @@
 				<a href="#"><li>MIUI下载</li></a>
 				<a href="#"><li>橙色星期五</li></a>
 				<a href="#"><li>论坛APP</li></a>
-				<a href="#" class="list"><i class="fa fa-list-ul" aria-hidden="true"></i></a>
-			</ul>
+				<a href="#" class="list">
+					<i class="fa fa-list-ul" aria-hidden="true"></i>
+				</a>
+				<div class="help">
+				<p>请<a href="#">登录</a>后使用快捷导航</br>
+				没有账号？<a href="#"><b>注册</b></a></p>
+				</div>
 		</div>
+			</ul>
+
 	</div>
 	<div id="main">
-		<a href="#" class="t1"><img src="pic\MIUI8.PNG" class="tu1"></a>
+		<a href="#" class="t1"><img src="pic\MIUI8.PNG" class="tu1">
+			<div class="jiantou_l"></div>
+			<div class="jiantou_r"></div></a>
 		<div id="points">
-			<div class="one"></div>
+			<div class="one" style="opacity:1"></div>
 			<div class="one"></div>
 			<div class="one"></div>
 			<div class="one"></div>
 		</div>
+		
 		<div class="pic">
 			<a href="#"><img src="pic\投票.PNG"></a>
 			<a href="#"><img src="pic\教程.PNG" class="tu2"></a>
@@ -319,12 +327,12 @@
 		 $(".liebiao").hide();
 		 
 		 }) 
-	 $(".list i").mouseover(function(){
+	 $(".list").mouseover(function(){
 		 $(".help").show();
 		 
 		
 		 })
-	 $(".list i").mouseout(function(){
+	 $(".list").mouseout(function(){
 		 
 		 $(".help").hide();
 		 
@@ -440,7 +448,12 @@
 		 
 		 })
 
-	
+	 $(".t1").mouseover(function(){
+	 	$(".jiantou_l,.jiantou_r").show()
+	 })
+	  $(".t1").mouseout(function(){
+	 	$(".jiantou_l,.jiantou_r").hide()
+	 })
 	})
 	</script>
 </body>
