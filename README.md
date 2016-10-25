@@ -43,9 +43,9 @@ About
 
 ###小米论坛首页
 
-* 新建目录：目录名最好带有xiaomi字样，或者写个readme。方便查找。
+* 新建目录：目录名最好带有miui字样，或者写个readme。方便查找。
 
-* 仿写小米论坛首页：[xiaomi](http://www.xiaomi.cn/index.html)
+* 仿写小米论坛首页：[miui](http://www.miui.com/index.html)
 
 * 周三例会前git push
 
